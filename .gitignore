@@ -1,0 +1,52 @@
+### Maven ###
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Logs ###
+*.log
+logs/
+
+### Environment / secrets (NEVER commit) ###
+.env
+*.env
+credentials/
+!credentials/.gitkeep
+service-account*.json
+**/credentials/*.json
+src/main/resources/*-credentials.json
+google-sheets-credentials.json
+
+### OS ###
+.DS_Store
+Thumbs.db
+.service-account
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
